@@ -1,0 +1,18 @@
+lien_experience   lien_formation
+Nom complet (Important)
+paragraphe qui decrit votre profil
+Formations (Titre)
+Ordonée
+1-
+2-
+3-
+Expérience (Titre)
+-
+-
+-
+
+
+lien_de_téléchargement_cv
+
+
+
