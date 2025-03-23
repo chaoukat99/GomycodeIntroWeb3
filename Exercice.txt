@@ -1,3 +1,4 @@
+Image de profil(200x200)
 lien_experience   lien_formation
 Nom complet (Important)
 paragraphe qui decrit votre profil
@@ -13,6 +14,11 @@ Expérience (Titre)
 
 
 lien_de_téléchargement_cv
+
+
+icond tel : lien tel
+icon email : lien mail
+localisation: Iframe 
 
 
 
