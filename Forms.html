@@ -10,11 +10,12 @@
 
     
      <form  method="get">
-           <label for="inp1">Username :</label>  <br>
-           <input type="text" id="inp1" ><br>
+           <label for="inp1">Username * :</label>  <br>
+           <input type="text" id="inp1" placeholder="Ex : karim99" minlength="8" maxlength="10"  required ><br>
+           <button>Submit</button>
            <label >Age :</label>  <br>
 
-            <input type="number" name="" id=""><br>
+            <input type="number" min="5" max="100" name="" id=""><br>
             <label >Email :</label>  <br>
 
             <input type="email" name="" id=""><br>
@@ -53,17 +54,17 @@
             Checkboxes
         </label>
 
-        <input type="checkbox" name="" id="">
-        <input type="checkbox" name="" id="">
+        <input type="checkbox"  name="" id="">
+        <input type="checkbox"  name="" id="">
         <input type="checkbox" name="" id="">
         <input type="checkbox" name="" id="">
         <label>
             Gender :
         </label>
         <label for="m">Male</label>
-        <input type="radio" name="gender" id="m">
+        <input type="radio"  name="gender" id="m">
         <label for="f">Female</label>
-        <input type="radio" id="f" name="gender" >
+        <input type="radio" checked id="f" name="gender" >
        
 
         <hr>
@@ -84,7 +85,7 @@
         
 
 
-
+        
     
 
 
@@ -92,7 +93,31 @@
      </form>
 
 
+<form action="" method="get">
+      <label for="">Username Or Email</label>
+      <br/>
+      <input type="text" name="username" id=""><br/>
+      <label for="">Password</label>
+      <br/>
+      <input type="password" name="password" id=""><br/>
+      <input type="checkbox" name="" id=""> 
+      <label for="">Remember me </label>
 
+      <br/>
+      <button>Login </button>
+
+      <select name="" id="">
+        <option value="">Veuillez selctionner la ville </option>
+        <option value="Casa">Casablanca</option>
+        <option value="Rabat">Rabat</option>
+        <option value="Fes">Fes</option>
+     
+      </select>
+
+<br>
+      <textarea name="" cols="60" rows="5" id="" placeholder="votre message"></textarea>
+
+</form>
 
 </body>
 </html>
