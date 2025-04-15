@@ -1,0 +1,85 @@
+/* 
+
+selecteur{
+   property:value;
+   protery:value;
+   ...
+}
+
+*/
+
+
+
+/*
+
+selection by tagname
+*/
+
+/* p{
+    color: red !important;
+    color: black;
+
+} */
+
+
+/* a{
+    color: red;
+} */
+
+/* id */
+#gLink{
+color: red;
+}
+
+
+.cls{
+    color: teal;
+}
+
+
+.cls1{
+    color: red;
+}
+
+
+
+.cls1.cls2{
+    color: green;
+}
+
+.cls1.cls2.cls3{
+
+    color: aqua;
+}
+
+.alert.alert-danger{
+    background-color: yellow;
+}
+
+
+
+
+/* 
+by attribute 
+
+*/
+
+
+
+
+
+input[type="password"]{
+    background-color: red;
+}
+
+
+a[href="https://www.hespress.com"]{
+    color: green;
+}
+
+
+
+header .logo h1{
+
+    color: red;
+}
