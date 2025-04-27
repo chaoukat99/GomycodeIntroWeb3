@@ -1,0 +1,37 @@
+.parent{
+  
+    height: 100vh;
+    border: solid 2px;
+    display: flex;
+     flex-wrap: wrap; 
+     justify-content: center;
+     gap: 40px;
+
+}
+
+.parent div {
+    width: 200px;
+    height: 60px;
+    background-color: red;
+    border: solid 2px yellow;
+
+}
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+}
+
+div{
+    width: 200px;
+    height: 80px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

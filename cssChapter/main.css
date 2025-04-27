@@ -1,0 +1,42 @@
+
+/* button{
+    width: 200px;
+    background-color: rgb(31, 101, 199);
+    border: 0;
+    color: white;
+    padding: 10px;
+    transition:0.4s ;
+}
+
+
+button:hover{
+    background-color: rgb(37, 117, 229);
+    box-shadow: 1px 1px 10px black;
+    scale: 1.07;
+
+}
+p:hover{
+    color: red;
+} */
+
+
+
+/* 
+input:hover ~ p {
+display: none;
+} */
+
+/* 
+.menu{
+
+    width: 200px;
+    height: 300px;
+    background-color: red;
+    margin-left: -210px;
+    transition: 0.4s;
+}
+
+
+input[type="checkbox"]:checked ~ .menu{
+    margin-left: 0px;
+} */

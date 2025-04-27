@@ -1,0 +1,64 @@
+body{
+    background-color: #7dbb5c;
+}
+
+
+
+
+form{
+
+    width: 300px;
+    height: 200px;
+    background: white;
+    margin: 130px auto;
+    padding: 40px;
+}
+
+
+form input{
+    padding: 15px;
+    background-color: #f2f2f2;
+    border: none;
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+   
+}
+form input:focus{
+  outline: none;
+  border: solid 1px green;
+
+}
+
+
+ form button{
+    width: 95%;
+   padding: 10px;
+   display: block;
+   margin:10px auto;
+   background-color: #54b051;
+   border:none;
+   color: white;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+
+form p{
+    font-family: 'Times New Roman', Times, serif;
+    color: #c9c6bf;
+    text-align: center;
+}
+
+form p a{
+    text-decoration: none;
+    color: #54b051;
+    text-transform: capitalize;
+}
+
+
+
+::placeholder{
+    text-transform: lowercase;
+}
