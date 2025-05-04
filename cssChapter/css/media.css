@@ -1,0 +1,58 @@
+.cls{
+    width: 400px;
+    height: 100px;
+    background-color: red;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+}
+
+.msg{
+     font-size: 30px;
+     text-align: center;
+     font-family: cursive;
+     background-color: #eee;
+     width: fit-content;
+     padding: 20px;
+     border-left: solid 5px red;
+     border-radius: 8px;
+     display: none;
+}
+
+
+
+@media  (max-width:760px) {
+    .cls{
+        display: none;
+    }
+
+    .msg{
+        display: block;
+    }
+
+}
+
+/* @media (min-width:801px) and (max-width:1080px){
+    .cls{
+        background-color: pink;
+    }
+}
+
+@media (min-width:600px) and (max-width:800px) {
+    .cls{
+        width: 200px;
+        height: 80px;
+        background-color: blue;
+    }
+    
+}
+
+@media (min-width:300px) and (max-width:599px){
+    .cls{
+        width: 100px;
+        height: 60px;
+        background-color: green;
+    }
+} */

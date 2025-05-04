@@ -1,0 +1,19 @@
+Git Commands:
+1-git init(Initialiser le git)
+2-git add .(ajouter les modifications)
+3-git commit -m "Your_message" (Valider la version)
+4-Git log(liser les versions ) // add --oneline to list version details in one line 
+
+
+
+5-git checkout id_version(Basculer vers des versions)
+
+
+
+// --------------- Git Push Codes to Gitub---------------//
+
+
+6-git remote add origin <url_du_repo_github> (link your local code with github repository)
+7-git branch(verifier si master ou bien main)
+
+8-git push -u origin master ou main 
